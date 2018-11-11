@@ -72,11 +72,14 @@ class Medias extends Component {
         break;
       case "embedded":
         media = (
-          <div key={index} className={[classes.container, classes.embeded]}>
+          <div
+            key={index}
+            className={[classes.container, classes.embeded].join(" ")}
+          >
             <iframe
               title={mediaInput.title}
               src={mediaInput.path}
-              width="100%"
+              width={window.innerWidth > 1020 ? "720px" : "100%"}
               height={window.innerWidth > 1020 ? "400px" : "100%"}
               frameBorder="0"
               webkitallowfullscreen="true"
