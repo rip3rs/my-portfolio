@@ -2,15 +2,38 @@
   "header": {
     "type": "image",
     "path": "/assets/img/code.png",
-    "pos": [
-      -200,
-      0
-    ]
+    "pos": [-200, 0]
   },
   "content": [
     {
+      "title": "Digital Signage Native",
+      "content": "WIP: Digital Signage for Android and IOS using React Native.",
+      "medias": {},
+      "tools": [
+        "react",
+        "apple",
+        "visualstudiocode",
+        "raspberrypi",
+        "archlinux",
+        "css3",
+        "debian",
+        "docker",
+        "eslint",
+        "git",
+        "gitlab",
+        "googlechrome",
+        "gulp",
+        "html5",
+        "javascript",
+        "json",
+        "linux",
+        "node-dot-js",
+        "npm"
+      ]
+    },
+    {
       "title": "Digital Signage",
-      "content": "WebOS, RPI, Shuttle, Windows, Linux, MacOsx",
+      "content": "The biggest project I ever had. Fully refactored in vanilla JS.\n\nDesigned and structured a personalised framework to match all the needs of the systems and api's that connect to the digital design system and allow digital signage to work on any platform fluidly. These include: MacOS, Linux, RPI(ARM), Windows, LG WebOS.",
       "medias": {},
       "tools": [
         "apple",
@@ -35,7 +58,7 @@
     },
     {
       "title": "Way2Queue",
-      "content": "Angular",
+      "content": "A queuing system for major banks, which has an hierarchical statistic system and control.\n\nThe idea is to maintain each branch independant but sync with the main system.",
       "medias": {},
       "tools": [
         "apple",
@@ -59,8 +82,16 @@
     },
     {
       "title": "CIM",
-      "content": "Doctor App",
-      "medias": {},
+      "content": "NOTE: Due to DNA I cannot show this product.\n\nThe idea is meant to have an easy and accesible way to make a doctors appointment based on your location using google maps api.",
+      "medias": {
+        "array": [
+          {
+            "type": "image",
+            "alt": "CIM",
+            "path": "/assets/img/code/CIM.png"
+          }
+        ]
+      },
       "tools": [
         "apple",
         "visualstudiocode",
@@ -85,25 +116,16 @@
       ]
     },
     {
-      "title": "Confluence to RevealJS",
-      "content": "MacOsx",
-      "medias": {},
-      "tools": [
-        "html",
-        "atom",
-        "css3",
-        "eslint",
-        "git",
-        "github",
-        "javascript",
-        "confluence",
-        "jira"
-      ]
-    },
-    {
       "title": "BIO-CIRCLE - E-commerce",
-      "content": "Shopware, SCRUM",
-      "medias": {},
+      "content": "Developed UX experienced based on the design team, such as dynamic tables carousels and many other aspects of UX were implemented.",
+      "medias": {
+        "array": [
+          {
+            "type": "url",
+            "path": "https://www.bio-circle.de/"
+          }
+        ]
+      },
       "tools": [
         "php",
         "html",
@@ -121,8 +143,15 @@
     },
     {
       "title": "Sawade",
-      "content": "Shopware",
-      "medias": {},
+      "content": "One of the most delicious and artistic sweets out there. Developed UX based on the design team, in a very pixel perfect fashion.",
+      "medias": {
+        "array": [
+          {
+            "type": "url",
+            "path": "https://sawade.berlin"
+          }
+        ]
+      },
       "tools": [
         "gulp",
         "html",
@@ -139,8 +168,8 @@
       ]
     },
     {
-      "title": "Wordpress",
-      "content": "gggg",
+      "title": "Wordpress Votum.de",
+      "content": "Maintained and introduced new features to the main companies website.\nDeveloped widgets; refactored; a LOT of LESS",
       "medias": {},
       "tools": [
         "gulp",
@@ -155,21 +184,6 @@
         "confluence",
         "jira",
         "vagrant"
-      ]
-    },
-    {
-      "title": "Mobile game",
-      "content": "C#.net, JS.net, in Unity3D",
-      "medias": {},
-      "tools": [
-        "atom",
-        "css3",
-        "eslint",
-        "git",
-        "bitbucket",
-        "javascript",
-        "confluence",
-        "jira"
       ]
     }
   ]

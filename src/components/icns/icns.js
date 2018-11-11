@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import "./icn-fonts.css";
 
 const icons = [
@@ -12,7 +12,7 @@ const icons = [
   { src: "apple", alt: "Apple", color: "#8a8a8a" },
   { src: "archlinux", alt: "Arch Linux", color: "#64a0ff" },
   { src: "atom", alt: "Atom", color: "#fbc900" },
-  { src: "bitbucket", alt: "BitBucket", color: "#006eff" },
+  { src: "bitbucket", alt: "BitBucket", color: "#2684FF" },
   { src: "bootstrap", alt: "BootStrap", color: "#563d7c" },
   { src: "css3", alt: "CSS3", color: "#2683ff" },
   { src: "typescript", alt: "TypeScript", color: "#83a8da" },
@@ -24,7 +24,7 @@ const icons = [
   { src: "docker", alt: "Docker", color: "#aed5ff" },
   { src: "eslint", alt: "ESLint", color: "#8b3dff" },
   { src: "git", alt: "Git", color: "#ff8600" },
-  { src: "github", alt: "GitHub", color: "#000000" },
+  { src: "github", alt: "GitHub", color: "#333333" },
   { src: "gitlab", alt: "GitLab", color: "#ff8600" },
   { src: "googleanalytics", alt: "Google Analytics", color: "#ff6200" },
   { src: "googlechrome", alt: "Google Chrome", color: "#00b4ff" },
@@ -36,7 +36,7 @@ const icons = [
   { src: "jquery", alt: "JQuery", color: "#b4cdff" },
   { src: "json", alt: "JSON", color: "#676767" },
   { src: "kickstarter", alt: "KickStarter", color: "#008000" },
-  { src: "linkedin", alt: "LinkedIN", color: "#056dff" },
+  { src: "linkedin", alt: "LinkedIN", color: "#0077B5" },
   { src: "linux", alt: "Linux", color: "#98973f" },
   { src: "mongodb", alt: "MongoDB", color: "#5b905b" },
   { src: "mysql", alt: "MySQL", color: "#ff8500" },
@@ -54,16 +54,16 @@ const icons = [
   { src: "skype", alt: "Skype", color: "#69b0ff" },
   { src: "slack", alt: "Slack", color: "#000000" },
   { src: "spotify", alt: "Spotify", color: "#00c109" },
-  { src: "stackoverflow", alt: "StackOverFlow", color: "#ffb500" },
+  { src: "stackoverflow", alt: "StackOverFlow", color: "#f48024" },
   { src: "steam", alt: "Steam", color: "#000000" },
   { src: "toptal", alt: "TopTal", color: "#0091ff" },
   { src: "trello", alt: "Trello", color: "#0091ff" },
-  { src: "twitch", alt: "Twitch", color: "#9200ca" },
+  { src: "twitch", alt: "Twitch", color: "#1DA1F2" },
   { src: "twitter", alt: "Twitter", color: "#0091ff" },
   { src: "ubuntu", alt: "Ubuntu", color: "#ff8600" },
   { src: "vagrant", alt: "Vagrant", color: "#006eff" },
   { src: "vim", alt: "Vim", color: "#007f00" },
-  { src: "vimeo", alt: "Vimeo", color: "#0091ff" },
+  { src: "vimeo", alt: "Vimeo", color: "#1ab7ea" },
   { src: "visualstudiocode", alt: "VS Code", color: "#0091ff" },
   { src: "vue-dot-js", alt: "VueJS", color: "#4fc08d" },
   { src: "webpack", alt: "WebPack", color: "#78afd8" },
@@ -84,19 +84,18 @@ const icns = props => {
           color: icn.color,
           display: "inline-block"
         }}
-        className={'icon-' + icn.src}
+        className={"icon-" + icn.src}
         alt={icn.alt}
       />
     ));
-  }
+  };
 
   const _selectedIcons = () => {
     let newIcons = [...icons];
     const ic = [];
 
     newIcons.forEach(obj => {
-      if (props.select.includes(obj.src))
-        ic.push(obj);
+      if (props.select.includes(obj.src)) ic.push(obj);
     });
 
     return ic.map((icn, i) => (
@@ -109,19 +108,25 @@ const icns = props => {
           color: icn.color,
           display: "inline-block"
         }}
-        className={'icon-' + icn.src}
+        className={"icon-" + icn.src}
         alt={icn.alt}
       />
-    ))
+    ));
   };
 
   switch (true) {
-    case props.select === 'all': ico = _all(); break;
-    case (Array.isArray(props.select)): ico = _selectedIcons(); break;
-    default: ico = _all(); break;
+    case props.select === "all":
+      ico = _all();
+      break;
+    case Array.isArray(props.select):
+      ico = _selectedIcons();
+      break;
+    default:
+      ico = _all();
+      break;
   }
 
   return ico;
-}
+};
 
 export default icns;

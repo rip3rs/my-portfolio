@@ -5,7 +5,7 @@ import Button from "./button/button";
 
 const menu = props => {
   const btns = props.btns.map(btn => (
-    <li key={btn.name + "_" + btn.index} className={classes.button}>
+    <li key={btn.name + "_" + btn.index} className={classes.list}>
       <Button name={btn.name} path={btn.path} />
     </li>
   ));

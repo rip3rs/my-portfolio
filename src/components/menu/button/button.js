@@ -1,6 +1,16 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
-const button = props => <Link to={props.path}>{props.name}</Link>;
+import classes from "./button.module.css";
+
+const button = props => (
+  <NavLink
+    className={classes.container}
+    activeClassName={classes.active}
+    to={props.path}
+  >
+    {props.name}
+  </NavLink>
+);
 
 export default button;
