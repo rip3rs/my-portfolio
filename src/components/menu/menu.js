@@ -10,7 +10,11 @@ const menu = props => {
     </li>
   ));
 
-  return <ul className={classes.menuContainer}>{btns}</ul>;
+  return (
+    <ul id="main-menu" className={classes.menuContainer}>
+      {btns}
+    </ul>
+  );
 };
 
 export default menu;

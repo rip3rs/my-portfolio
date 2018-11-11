@@ -26,3 +26,8 @@ code {
 .no-scroll {
   overflow: hidden;
 }
+
+.menu-is-fixed {
+  position: fixed !important;
+  top: 0 !important;
+}

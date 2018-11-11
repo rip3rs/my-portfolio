@@ -8,8 +8,38 @@
   left: 25%;
   z-index: 10;
   transition: 200ms transform;
+  overflow: hidden;
 }
 
 .logo:hover {
   transform: scale(1.8);
+}
+
+.logo img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media screen and (min-width: 500px) {
+  .logo {
+    width: 35%;
+    left: 32%;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .logo {
+    width: 25%;
+    left: 38%;
+    top: 33%;
+  }
+}
+
+@media screen and (min-width: 1020px) {
+  .logo {
+    width: 15%;
+    left: 10%;
+    top: 23%;
+  }
 }

@@ -5,19 +5,25 @@ import Video from "./banner/video/video";
 import Logo from "./logo/logo";
 
 const header = props => {
-  const logo = props.type === 'home' ? <Logo /> : null;
+  const logo = props.type === "home" ? <Logo /> : null;
   let banner = null;
 
   if (props.banner) {
     switch (props.banner.type) {
-      case 'image': banner = <Image config={props.banner} />; break;
-      case 'video': banner = <Video src={props.banner.path} />; break;
-      default: banner = null; break;
+      case "image":
+        banner = <Image config={props.banner} />;
+        break;
+      case "video":
+        banner = <Video src={props.banner.path} />;
+        break;
+      default:
+        banner = null;
+        break;
     }
   }
 
   return (
-    <header className={classes.header}>
+    <header ref={el => props.headerRefHandler(el)} className={classes.header}>
       {banner}
       {logo}
     </header>

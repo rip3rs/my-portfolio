@@ -1,8 +1,7 @@
 {
   "header": {
     "type": "image",
-    "path": "/assets/img/home.jpg",
-    "pos": [-160, 0]
+    "path": "/assets/img/home.jpg"
   },
   "content": [
     {

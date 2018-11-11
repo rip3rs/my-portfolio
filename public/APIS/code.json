@@ -1,8 +1,7 @@
 {
   "header": {
     "type": "image",
-    "path": "/assets/img/code.png",
-    "pos": [-200, 0]
+    "path": "/assets/img/code.png"
   },
   "content": [
     {
@@ -33,7 +32,7 @@
     },
     {
       "title": "Digital Signage",
-      "content": "The biggest project I ever had. Fully refactored in vanilla JS.\n\nDesigned and structured a personalised framework to match all the needs of the systems and api's that connect to the digital design system and allow digital signage to work on any platform fluidly. These include: MacOS, Linux, RPI(ARM), Windows, LG WebOS.",
+      "content": "The biggest project I ever had. Fully refactored in vanilla JS.\n\nDesigned and structured a personalised framework to match all the needs of the systems and api's that connect to the digital signage system and allow to work on any platform fluidly. These include: MacOS, Linux, RPI(ARM), Windows, LG WebOS.",
       "medias": {},
       "tools": [
         "apple",

@@ -21,11 +21,14 @@ class Page extends Component {
 
   componentDidMount = () => {
     ReactGA.pageview(window.location.pathname + window.location.search);
-
     axios
       .get(`APIS/${this.page}.json`)
       .then(response => this.changeStateHandler(response.data))
       .catch(err => console.log(err));
+  };
+
+  headerRefHandler = headerEl => {
+    this.props.menuPositionHandler(headerEl);
   };
 
   render() {
@@ -33,7 +36,13 @@ class Page extends Component {
     let header = null;
 
     if (this.state.data) {
-      header = <Header type={this.page} banner={this.state.data.header} />;
+      header = (
+        <Header
+          type={this.page}
+          banner={this.state.data.header}
+          headerRefHandler={this.headerRefHandler}
+        />
+      );
       ux = this.state.data.content.map((content, i) => (
         <Box key={`${content.title}-${i}`} content={content} />
       ));
@@ -43,6 +52,7 @@ class Page extends Component {
       <Aux>
         {header}
         <div
+          id="main-container"
           style={this.page === "home" ? { marginTop: "6em" } : null}
           className={classes.mainContainer}
         >
