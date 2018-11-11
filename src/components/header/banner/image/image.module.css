@@ -12,3 +12,13 @@
   justify-content: center;
   align-items: center;
 }
+
+.vfx {
+  height: 100%;
+}
+
+@media screen and (min-width: 1020px) {
+  .vfx {
+    background-position-y: -560px !important;
+  }
+}

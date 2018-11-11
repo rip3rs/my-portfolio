@@ -1,5 +1,6 @@
 import React from "react";
 import classes from "./image.module.css";
+import { withRouter } from "react-router-dom";
 
 const image = props => {
   const style = {
@@ -14,9 +15,15 @@ const image = props => {
 
   return (
     <div className={classes.bannerImage}>
-      <div style={style} className={classes.bannerImageBgr} />
+      <div
+        style={style}
+        className={[
+          classes.bannerImageBgr,
+          props.match.path.split("/").pop() === "vfx" ? classes.vfx : null
+        ].join(" ")}
+      />
     </div>
   );
 };
 
-export default image;
+export default withRouter(image);

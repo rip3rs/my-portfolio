@@ -72,12 +72,12 @@ class Medias extends Component {
         break;
       case "embedded":
         media = (
-          <div key={index} className={classes.container}>
+          <div key={index} className={[classes.container, classes.embeded]}>
             <iframe
               title={mediaInput.title}
               src={mediaInput.path}
               width="100%"
-              height="100%"
+              height={window.innerWidth > 1020 ? "400px" : "100%"}
               frameBorder="0"
               webkitallowfullscreen="true"
               mozallowfullscreen="true"
@@ -87,12 +87,14 @@ class Medias extends Component {
         );
         break;
       case "modal":
+        let src =
+          window.innerWidth < 1020 ? mediaInput.path[0] : mediaInput.path[1];
         media = (
           <img
             key={index}
             onClick={this.openModal.bind(this, index)}
             className={classes.img}
-            src={mediaInput.path}
+            src={src}
             alt={mediaInput.alt}
           />
         );

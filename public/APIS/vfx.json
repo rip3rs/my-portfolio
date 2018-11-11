@@ -25,7 +25,10 @@
           {
             "alt": "PCC1",
             "type": "modal",
-            "path": "/assets/img/vfx/PCC1/thumbs/PCC1_small.jpg",
+            "path": [
+              "/assets/img/vfx/PCC1/thumbs/PCC1_small.jpg",
+              "/assets/img/vfx/PCC1/PCC1_1.jpg"
+            ],
             "modal": [
               {
                 "type": "image",
@@ -47,7 +50,10 @@
           {
             "alt": "PCC2",
             "type": "modal",
-            "path": "/assets/img/vfx/PCC2/thumbs/PCC2_small.jpg",
+            "path": [
+              "/assets/img/vfx/PCC2/thumbs/PCC2_small.jpg",
+              "/assets/img/vfx/PCC2/PCC2_1.jpg"
+            ],
             "modal": [
               {
                 "type": "image",
@@ -69,7 +75,10 @@
           {
             "alt": "PCC3",
             "type": "modal",
-            "path": "/assets/img/vfx/PCC3/thumbs/PCC3_small.jpg",
+            "path": [
+              "/assets/img/vfx/PCC3/thumbs/PCC3_small.jpg",
+              "/assets/img/vfx/PCC3/PCC3_1.jpg"
+            ],
             "modal": [
               {
                 "type": "image",
@@ -107,6 +116,19 @@
       }
     },
     {
+      "title": "UDK Environment",
+      "medias": {
+        "config": {},
+        "array": [
+          {
+            "title": "UDK Environment",
+            "type": "embedded",
+            "path": "https://www.youtube.com/embed/watch?v=kknNNB9ysUY"
+          }
+        ]
+      }
+    },
+    {
       "title": "Mechanical Dragonfly",
       "medias": {
         "config": {},
@@ -114,12 +136,20 @@
           {
             "type": "modal",
             "alt": "Mechanical Dragonfly",
-            "path": "/assets/img/vfx/DragFly/thumbs/DF_small.jpg",
+            "path": [
+              "/assets/img/vfx/DragFly/thumbs/DF_small.jpg",
+              "/assets/img/vfx/DragFly/DF_Main.jpg"
+            ],
             "modal": [
               {
                 "type": "image",
                 "alt": "Dragonfly",
                 "path": "/assets/img/vfx/DragFly/DF_Main.jpg"
+              },
+              {
+                "title": "Mechanical Dragonfly",
+                "type": "embedded",
+                "path": "https://player.vimeo.com/video/48095883"
               }
             ]
           }
@@ -148,6 +178,34 @@
             "title": "The Truth About Emanuel",
             "type": "embedded",
             "path": "https://www.youtube.com/embed/vjigSSi-lt0"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Tutorials",
+      "medias": {
+        "config": {},
+        "array": [
+          {
+            "title": "Linear Workflow in Maya and Nuke",
+            "type": "embedded",
+            "path": "https://player.vimeo.com/video/48122871"
+          },
+          {
+            "title": "Unified Sampling",
+            "type": "embedded",
+            "path": "https://player.vimeo.com/video/41386599"
+          },
+          {
+            "title": "Brute force unified sampling",
+            "type": "embedded",
+            "path": "https://player.vimeo.com/video/41398387"
+          },
+          {
+            "title": "Unified Sampling Diagnose",
+            "type": "embedded",
+            "path": "https://player.vimeo.com/video/41401436"
           }
         ]
       }
