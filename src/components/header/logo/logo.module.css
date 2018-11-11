@@ -1,0 +1,15 @@
+.logo {
+  width: 50%;
+  height: auto;
+  position: absolute;
+  border-radius: 50%;
+  border: 5px solid #eeeeee;
+  top: 35%;
+  left: 25%;
+  z-index: 10;
+  transition: 200ms transform;
+}
+
+.logo:hover {
+  transform: scale(1.8);
+}

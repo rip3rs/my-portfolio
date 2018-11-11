@@ -1,0 +1,33 @@
+.menuContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  width: 100%;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #888888;
+  font-size: 1em;
+  background: #ffffff;
+  width: 100%;
+  padding: 0.5em;
+  border-bottom: 3px solid #888888;
+  border-left: none;
+  border-right: none;
+}

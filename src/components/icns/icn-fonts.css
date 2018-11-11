@@ -1,0 +1,230 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?ctg71z');
+  src:  url('fonts/icomoon.eot?ctg71z#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?ctg71z') format('truetype'),
+    url('fonts/icomoon.woff?ctg71z') format('woff'),
+    url('fonts/icomoon.svg?ctg71z#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-android:before {
+  content: "\e900";
+}
+.icon-confluence:before {
+  content: "\e901";
+}
+.icon-googlemaps:before {
+  content: "\e902";
+}
+.icon-magento:before {
+  content: "\e903";
+}
+.icon-php:before {
+  content: "\e904";
+}
+.icon-adobephotoshop:before {
+  content: "\e905";
+}
+.icon-angular:before {
+  content: "\e906";
+}
+.icon-apple:before {
+  content: "\e907";
+}
+.icon-archlinux:before {
+  content: "\e908";
+}
+.icon-atom:before {
+  content: "\e909";
+}
+.icon-bitbucket:before {
+  content: "\e90a";
+}
+.icon-bootstrap:before {
+  content: "\e90b";
+}
+.icon-css3:before {
+  content: "\e90c";
+}
+.icon-d3-dot-js:before {
+  content: "\e90d";
+}
+.icon-debian:before {
+  content: "\e90e";
+}
+.icon-dev-dot-to:before {
+  content: "\e90f";
+}
+.icon-digitalocean:before {
+  content: "\e910";
+}
+.icon-discord:before {
+  content: "\e911";
+}
+.icon-docker:before {
+  content: "\e912";
+}
+.icon-eslint:before {
+  content: "\e913";
+}
+.icon-git:before {
+  content: "\e914";
+}
+.icon-github:before {
+  content: "\e915";
+}
+.icon-gitlab:before {
+  content: "\e916";
+}
+.icon-googleanalytics:before {
+  content: "\e917";
+}
+.icon-googlechrome:before {
+  content: "\e918";
+}
+.icon-googlehangouts:before {
+  content: "\e919";
+}
+.icon-gulp:before {
+  content: "\e91a";
+}
+.icon-html5:before {
+  content: "\e91b";
+}
+.icon-javascript:before {
+  content: "\e91c";
+}
+.icon-jira:before {
+  content: "\e91d";
+}
+.icon-jquery:before {
+  content: "\e91e";
+}
+.icon-json:before {
+  content: "\e91f";
+}
+.icon-kickstarter:before {
+  content: "\e920";
+}
+.icon-linkedin:before {
+  content: "\e921";
+}
+.icon-linux:before {
+  content: "\e922";
+}
+.icon-messenger:before {
+  content: "\e923";
+}
+.icon-mongodb:before {
+  content: "\e924";
+}
+.icon-mysql:before {
+  content: "\e925";
+}
+.icon-nginx:before {
+  content: "\e926";
+}
+.icon-node-dot-js:before {
+  content: "\e927";
+}
+.icon-npm:before {
+  content: "\e928";
+}
+.icon-nvidia:before {
+  content: "\e929";
+}
+.icon-ovh:before {
+  content: "\e92a";
+}
+.icon-paypal:before {
+  content: "\e92b";
+}
+.icon-raspberrypi:before {
+  content: "\e92c";
+}
+.icon-react:before {
+  content: "\e92d";
+}
+.icon-redux:before {
+  content: "\e92e";
+}
+.icon-rss:before {
+  content: "\e92f";
+}
+.icon-safari:before {
+  content: "\e930";
+}
+.icon-skype:before {
+  content: "\e931";
+}
+.icon-slack:before {
+  content: "\e932";
+}
+.icon-spotify:before {
+  content: "\e933";
+}
+.icon-stackoverflow:before {
+  content: "\e934";
+}
+.icon-steam:before {
+  content: "\e935";
+}
+.icon-toptal:before {
+  content: "\e936";
+}
+.icon-trello:before {
+  content: "\e937";
+}
+.icon-twitch:before {
+  content: "\e938";
+}
+.icon-twitter:before {
+  content: "\e939";
+}
+.icon-typescript:before {
+  content: "\e93a";
+}
+.icon-ubuntu:before {
+  content: "\e93b";
+}
+.icon-vagrant:before {
+  content: "\e93c";
+}
+.icon-vim:before {
+  content: "\e93d";
+}
+.icon-vimeo:before {
+  content: "\e93e";
+}
+.icon-visualstudiocode:before {
+  content: "\e93f";
+}
+.icon-vue-dot-js:before {
+  content: "\e940";
+}
+.icon-webpack:before {
+  content: "\e941";
+}
+.icon-whatsapp:before {
+  content: "\e942";
+}
+.icon-wordpress:before {
+  content: "\e943";
+}

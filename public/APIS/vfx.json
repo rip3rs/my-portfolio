@@ -1,0 +1,160 @@
+{
+  "header": {
+    "type": "image",
+    "path": "/assets/img/vfx/PCC1/PCC1_1.jpg",
+    "pos": [
+      0,
+      -140
+    ]
+  },
+  "content": [
+    {
+      "title": "Demo Reel",
+      "medias": {
+        "config": {},
+        "array": [
+          {
+            "title": "Demo Reel 2012",
+            "type": "embedded",
+            "path": "https://player.vimeo.com/video/37358584"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Demo Reel images",
+      "medias": {
+        "config": {},
+        "array": [
+          {
+            "alt": "PCC1",
+            "type": "modal",
+            "path": "/assets/img/vfx/PCC1/thumbs/PCC1_small.jpg",
+            "modal": [
+              {
+                "type": "image",
+                "alt": "PCC1",
+                "path": "/assets/img/vfx/PCC1/PCC1_1.jpg"
+              },
+              {
+                "type": "image",
+                "alt": "PCC1",
+                "path": "/assets/img/vfx/PCC1/PCC1_1_AO.jpg"
+              },
+              {
+                "type": "image",
+                "alt": "PCC1",
+                "path": "/assets/img/vfx/PCC1/PCC1_2.jpg"
+              }
+            ]
+          },
+          {
+            "alt": "PCC2",
+            "type": "modal",
+            "path": "/assets/img/vfx/PCC2/thumbs/PCC2_small.jpg",
+            "modal": [
+              {
+                "type": "image",
+                "alt": "PCC2",
+                "path": "/assets/img/vfx/PCC2/PCC2_1.jpg"
+              },
+              {
+                "type": "image",
+                "alt": "PCC2",
+                "path": "/assets/img/vfx/PCC2/PCC2_1_AO.jpg"
+              },
+              {
+                "type": "image",
+                "alt": "PCC2",
+                "path": "/assets/img/vfx/PCC2/PCC2_2.jpg"
+              }
+            ]
+          },
+          {
+            "alt": "PCC3",
+            "type": "modal",
+            "path": "/assets/img/vfx/PCC3/thumbs/PCC3_small.jpg",
+            "modal": [
+              {
+                "type": "image",
+                "alt": "PCC3",
+                "path": "/assets/img/vfx/PCC3/PCC3_1.jpg"
+              },
+              {
+                "type": "image",
+                "alt": "PCC3",
+                "path": "/assets/img/vfx/PCC3/PCC3_1_AO.jpg"
+              },
+              {
+                "type": "image",
+                "alt": "PCC3",
+                "path": "/assets/img/vfx/PCC3/PCC3_2.jpg"
+              },
+              {
+                "type": "image",
+                "alt": "PCC3",
+                "path": "/assets/img/vfx/PCC3/PCC3_3.jpg"
+              },
+              {
+                "type": "image",
+                "alt": "PCC3",
+                "path": "/assets/img/vfx/PCC3/PCC3_4.jpg"
+              },
+              {
+                "type": "image",
+                "alt": "PCC3",
+                "path": "/assets/img/vfx/PCC3/PCC3_5.jpg"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "title": "Mechanical Dragonfly",
+      "medias": {
+        "config": {},
+        "array": [
+          {
+            "type": "modal",
+            "alt": "Mechanical Dragonfly",
+            "path": "/assets/img/vfx/DragFly/thumbs/DF_small.jpg",
+            "modal": [
+              {
+                "type": "image",
+                "alt": "Dragonfly",
+                "path": "/assets/img/vfx/DragFly/DF_Main.jpg"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "title": "Splenda Commercial",
+      "medias": {
+        "config": {},
+        "array": [
+          {
+            "title": "Splenda Commercial",
+            "type": "embedded",
+            "path": "https://www.youtube.com/embed/DLE_rmATvho"
+          }
+        ]
+      }
+    },
+    {
+      "title": "The Truth About Emanuel",
+      "medias": {
+        "config": {},
+        "array": [
+          {
+            "title": "The Truth About Emanuel",
+            "type": "embedded",
+            "path": "https://www.youtube.com/embed/vjigSSi-lt0"
+          }
+        ]
+      }
+    }
+  ]
+}

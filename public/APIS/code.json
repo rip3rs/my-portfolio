@@ -1,0 +1,176 @@
+{
+  "header": {
+    "type": "image",
+    "path": "/assets/img/code.png",
+    "pos": [
+      -200,
+      0
+    ]
+  },
+  "content": [
+    {
+      "title": "Digital Signage",
+      "content": "WebOS, RPI, Shuttle, Windows, Linux, MacOsx",
+      "medias": {},
+      "tools": [
+        "apple",
+        "visualstudiocode",
+        "raspberrypi",
+        "archlinux",
+        "css3",
+        "debian",
+        "docker",
+        "eslint",
+        "git",
+        "gitlab",
+        "googlechrome",
+        "gulp",
+        "html5",
+        "javascript",
+        "json",
+        "linux",
+        "node-dot-js",
+        "npm"
+      ]
+    },
+    {
+      "title": "Way2Queue",
+      "content": "Angular",
+      "medias": {},
+      "tools": [
+        "apple",
+        "angular",
+        "visualstudiocode",
+        "css3",
+        "vagrant",
+        "docker",
+        "eslint",
+        "git",
+        "gitlab",
+        "googlechrome",
+        "gulp",
+        "html5",
+        "javascript",
+        "json",
+        "linux",
+        "node-dot-js",
+        "npm"
+      ]
+    },
+    {
+      "title": "CIM",
+      "content": "Doctor App",
+      "medias": {},
+      "tools": [
+        "apple",
+        "visualstudiocode",
+        "raspberrypi",
+        "archlinux",
+        "css3",
+        "debian",
+        "docker",
+        "eslint",
+        "git",
+        "gitlab",
+        "googlechrome",
+        "gulp",
+        "html5",
+        "javascript",
+        "json",
+        "linux",
+        "node-dot-js",
+        "npm",
+        "android",
+        "googlemaps"
+      ]
+    },
+    {
+      "title": "Confluence to RevealJS",
+      "content": "MacOsx",
+      "medias": {},
+      "tools": [
+        "html",
+        "atom",
+        "css3",
+        "eslint",
+        "git",
+        "github",
+        "javascript",
+        "confluence",
+        "jira"
+      ]
+    },
+    {
+      "title": "BIO-CIRCLE - E-commerce",
+      "content": "Shopware, SCRUM",
+      "medias": {},
+      "tools": [
+        "php",
+        "html",
+        "atom",
+        "css3",
+        "eslint",
+        "git",
+        "gitlab",
+        "javascript",
+        "confluence",
+        "jira",
+        "gulp",
+        "vagrant"
+      ]
+    },
+    {
+      "title": "Sawade",
+      "content": "Shopware",
+      "medias": {},
+      "tools": [
+        "gulp",
+        "html",
+        "php",
+        "atom",
+        "css3",
+        "eslint",
+        "git",
+        "gitlab",
+        "javascript",
+        "confluence",
+        "jira",
+        "vagrant"
+      ]
+    },
+    {
+      "title": "Wordpress",
+      "content": "gggg",
+      "medias": {},
+      "tools": [
+        "gulp",
+        "wordpress",
+        "php",
+        "atom",
+        "css3",
+        "eslint",
+        "git",
+        "gitlab",
+        "javascript",
+        "confluence",
+        "jira",
+        "vagrant"
+      ]
+    },
+    {
+      "title": "Mobile game",
+      "content": "C#.net, JS.net, in Unity3D",
+      "medias": {},
+      "tools": [
+        "atom",
+        "css3",
+        "eslint",
+        "git",
+        "bitbucket",
+        "javascript",
+        "confluence",
+        "jira"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "header": {
+    "type": "image",
+    "path": "/assets/img/home.jpg",
+    "pos": [
+      -160,
+      0
+    ]
+  },
+  "content": [
+    {
+      "title": "About me",
+      "medias": {},
+      "content": "Hello.\n\nI am Joseph Briggs a Passioante tech guy that does FrontEnd Web Development amongst other things. \nI love the sea. TV Shows and to study stuff that makes logic."
+    },
+    {
+      "title": "Some tools interests and other",
+      "medias": {},
+      "tools": "all"
+    }
+  ]
+}
