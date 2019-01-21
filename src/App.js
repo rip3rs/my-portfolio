@@ -4,7 +4,7 @@ import classes from "./App.module.css";
 import Page from "./containers/Page/Page";
 import Menu from "./components/menu/menu";
 import ReactGA from "react-ga";
-ReactGA.initialize("XXXXXXXX");
+ReactGA.initialize("UA-43695037-1");
 
 class App extends Component {
   routesArr = [
