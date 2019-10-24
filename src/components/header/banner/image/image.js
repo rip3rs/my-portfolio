@@ -3,6 +3,7 @@ import classes from "./image.module.css";
 import { withRouter } from "react-router-dom";
 
 const image = props => {
+  let customClass = "";
   const style = {
     background: props.config.path
       ? `url(${props.config.path}) ${
@@ -13,15 +14,28 @@ const image = props => {
     backgroundSize: "cover"
   };
 
+  switch (props.match.path.split("/").pop()) {
+    case "vfx":
+      customClass = classes.vfx;
+      break;
+    case "code":
+      customClass = classes.code;
+      break;
+    case "me":
+      customClass = classes.me;
+      break;
+
+    default:
+      customClass = null;
+      break;
+  }
+
   return (
     <div className={classes.bannerImage}>
       <div
         style={style}
-        className={[
-          classes.bannerImageBgr,
-          props.match.path.split("/").pop() === "vfx" ? classes.vfx : null
-        ].join(" ")}
-      />
+        className={[classes.bannerImageBgr, customClass].join(" ")}
+      />{" "}
     </div>
   );
 };

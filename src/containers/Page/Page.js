@@ -14,7 +14,9 @@ class Page extends Component {
   };
 
   changeStateHandler = msg => {
-    const state = { ...this.state };
+    const state = {
+      ...this.state
+    };
     state.data = msg;
     this.setState(state);
   };
@@ -50,14 +52,21 @@ class Page extends Component {
 
     return (
       <Aux>
-        {header}
+        {" "}
+        {header}{" "}
         <div
           id="main-container"
-          style={this.page === "home" ? { marginTop: "6em" } : null}
+          style={
+            this.page === "home"
+              ? {
+                  marginTop: "6em"
+                }
+              : null
+          }
           className={classes.mainContainer}
         >
-          {ux}
-        </div>
+          {ux}{" "}
+        </div>{" "}
       </Aux>
     );
   }

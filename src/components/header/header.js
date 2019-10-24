@@ -24,8 +24,8 @@ const header = props => {
 
   return (
     <header ref={el => props.headerRefHandler(el)} className={classes.header}>
-      {banner}
-      {logo}
+      {" "}
+      {banner} {logo}{" "}
     </header>
   );
 };

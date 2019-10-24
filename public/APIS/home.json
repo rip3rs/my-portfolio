@@ -3,8 +3,7 @@
     "type": "image",
     "path": "/assets/img/home.jpg"
   },
-  "content": [
-    {
+  "content": [{
       "title": "About me",
       "medias": {},
       "content": "Hello.\n\nI am Joseph Briggs a Passioante tech guy that does FrontEnd Web Development amongst other things. \nI love the sea, TV Shows, Blues, Jazz, sports, gaming and amongst other things.\n\nI always had a passion for technology ever since I saw Prince of Persia for the first time (Yeah the first one ever, that game rocked!).\n\nThen I started out trying to figure out how a human could interact with plastic boards and electricity, so I decided to read a book (no internet back then :P) on C, even today I don't get it xD\n\nSo when I was about 11 years old I went into PHP (hello mIRC), then...\n\nAfter watching the first cinematic from Blizzards Warcraft III way back in the day, I started my path towards VFX. I really wanted to find out how on earth I could do that kick ass cinematic. So I did a few courses and went to LA. Did some work finally figured out how they made that kick ass cinematic and more!\n\nAfter a while I decided I wanted something else, so here I am a mixture of art with dev.\n\n\nSo thats my story :)\n\nIf you wish to grab a beer or just talk, throw me an email, or add me on one of the gazillion social network systems out there :P"
@@ -12,8 +11,7 @@
     {
       "title": "Social Links",
       "medias": {
-        "array": [
-          {
+        "array": [{
             "type": "socialBtns",
             "icon": "github",
             "path": "https://github.com/rip3rs"

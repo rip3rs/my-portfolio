@@ -1,36 +1,31 @@
 {
   "header": {
     "type": "image",
-    "path": "/assets/img/vfx/PCC1/PCC1_1.jpg"
+    "path": "/assets/img/vfx/PCC3/PCC3_1.jpg"
   },
-  "content": [
-    {
+  "content": [{
       "title": "Demo Reel",
       "medias": {
         "config": {},
-        "array": [
-          {
-            "title": "Demo Reel 2012",
-            "type": "embedded",
-            "path": "https://player.vimeo.com/video/37358584"
-          }
-        ]
+        "array": [{
+          "title": "Demo Reel 2012",
+          "type": "embedded",
+          "path": "https://player.vimeo.com/video/37358584"
+        }]
       }
     },
     {
       "title": "Demo Reel images",
       "medias": {
         "config": {},
-        "array": [
-          {
+        "array": [{
             "alt": "PCC1",
             "type": "modal",
             "path": [
               "/assets/img/vfx/PCC1/thumbs/PCC1_small.jpg",
               "/assets/img/vfx/PCC1/PCC1_1.jpg"
             ],
-            "modal": [
-              {
+            "modal": [{
                 "type": "image",
                 "alt": "PCC1",
                 "path": "/assets/img/vfx/PCC1/PCC1_1.jpg"
@@ -54,8 +49,7 @@
               "/assets/img/vfx/PCC2/thumbs/PCC2_small.jpg",
               "/assets/img/vfx/PCC2/PCC2_1.jpg"
             ],
-            "modal": [
-              {
+            "modal": [{
                 "type": "image",
                 "alt": "PCC2",
                 "path": "/assets/img/vfx/PCC2/PCC2_1.jpg"
@@ -79,8 +73,7 @@
               "/assets/img/vfx/PCC3/thumbs/PCC3_small.jpg",
               "/assets/img/vfx/PCC3/PCC3_1.jpg"
             ],
-            "modal": [
-              {
+            "modal": [{
                 "type": "image",
                 "alt": "PCC3",
                 "path": "/assets/img/vfx/PCC3/PCC3_1.jpg"
@@ -119,75 +112,65 @@
       "title": "UDK Environment",
       "medias": {
         "config": {},
-        "array": [
-          {
-            "title": "UDK Environment",
-            "type": "embedded",
-            "path": "https://www.youtube.com/embed/watch?v=kknNNB9ysUY"
-          }
-        ]
+        "array": [{
+          "title": "UDK Environment",
+          "type": "embedded",
+          "path": "https://www.youtube.com/embed/watch?v=kknNNB9ysUY"
+        }]
       }
     },
     {
       "title": "Mechanical Dragonfly",
       "medias": {
         "config": {},
-        "array": [
-          {
-            "type": "modal",
-            "alt": "Mechanical Dragonfly",
-            "path": [
-              "/assets/img/vfx/DragFly/thumbs/DF_small.jpg",
-              "/assets/img/vfx/DragFly/DF_Main.jpg"
-            ],
-            "modal": [
-              {
-                "type": "image",
-                "alt": "Dragonfly",
-                "path": "/assets/img/vfx/DragFly/DF_Main.jpg"
-              },
-              {
-                "title": "Mechanical Dragonfly",
-                "type": "embedded",
-                "path": "https://player.vimeo.com/video/48095883"
-              }
-            ]
-          }
-        ]
+        "array": [{
+          "type": "modal",
+          "alt": "Mechanical Dragonfly",
+          "path": [
+            "/assets/img/vfx/DragFly/thumbs/DF_small.jpg",
+            "/assets/img/vfx/DragFly/DF_Main.jpg"
+          ],
+          "modal": [{
+              "type": "image",
+              "alt": "Dragonfly",
+              "path": "/assets/img/vfx/DragFly/DF_Main.jpg"
+            },
+            {
+              "title": "Mechanical Dragonfly",
+              "type": "embedded",
+              "path": "https://player.vimeo.com/video/48095883"
+            }
+          ]
+        }]
       }
     },
     {
       "title": "Splenda Commercial",
       "medias": {
         "config": {},
-        "array": [
-          {
-            "title": "Splenda Commercial",
-            "type": "embedded",
-            "path": "https://www.youtube.com/embed/DLE_rmATvho"
-          }
-        ]
+        "array": [{
+          "title": "Splenda Commercial",
+          "type": "embedded",
+          "path": "https://www.youtube.com/embed/DLE_rmATvho"
+        }]
       }
     },
     {
       "title": "The Truth About Emanuel",
       "medias": {
         "config": {},
-        "array": [
-          {
-            "title": "The Truth About Emanuel",
-            "type": "embedded",
-            "path": "https://www.youtube.com/embed/vjigSSi-lt0"
-          }
-        ]
+        "array": [{
+          "title": "The Truth About Emanuel",
+          "type": "embedded",
+          "path": "https://www.youtube.com/embed/vjigSSi-lt0"
+        }]
       }
     },
     {
       "title": "Tutorials",
       "medias": {
         "config": {},
-        "array": [
-          {
+        "array": [{
             "title": "Linear Workflow in Maya and Nuke",
             "type": "embedded",
             "path": "https://player.vimeo.com/video/48122871"
